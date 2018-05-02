@@ -1,7 +1,7 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Not  quite ready....working out the bugs!!!",
   "main": "liri.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,12 +18,17 @@
   },
   "homepage": "https://github.com/k3nn1/liri-node-app#readme",
   "dependencies": {
-    "colors": "^1.2.1",
+    "colors": "^1.2.3",
     "dotenv": "^5.0.1",
+    "fs": "0.0.1-security",
+    "init": "^0.1.2",
+    "node-spotify-api": "^1.0.7",
     "prompt": "^1.0.0",
     "request": "^2.85.0",
     "spotify": "^0.3.0",
     "spotify-web-api-node": "^3.0.0",
-    "twitter": "^1.7.1"
-  }
+    "twitter": "^1.7.1",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {}
 }
